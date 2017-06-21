@@ -1,0 +1,2 @@
+
+open a new write.txt

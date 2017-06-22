@@ -4,10 +4,10 @@
 #include <linux/cdev.h>
 #include <linux/fs.h>
 
-
-
 struct cdev *gec_cdev;
 dev_t gec_no;
+
+
 struct file_operations gec_ops=
 {
 

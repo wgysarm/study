@@ -8,9 +8,42 @@ struct cdev *gec_cdev;
 dev_t gec_no;
 
 
-struct file_operations gec_ops=
+int gec_open(struct inode *inode, struct file *filp)
 {
 
+	printk("gec_open");
+	return 0;
+}
+
+
+int gec_release(struct inode *inode, struct file* filp )
+{
+	printk("gec_release");
+	return 0;
+}
+
+ssize_t gec_read(struct file *filp, char __user *buf, size_t count, loff_t *offs)
+{
+
+	printk("gec_read");
+	return count;
+
+}
+ssize_t gec_write(struct file *filp, const char __user *buf, size_t count, loff_t *offs)
+{
+
+	printk("gec_write");
+	return count;
+
+}
+
+
+struct file_operations gec_ops=
+{
+	.open = gec_open,
+	.release = gec_release,
+	.read = gec_read,
+	.write = gec_write,
 };
 
 

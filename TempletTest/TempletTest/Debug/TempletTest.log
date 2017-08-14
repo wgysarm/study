@@ -1,0 +1,43 @@
+﻿Build started 2017/7/9 21:35:40.
+     1>Project "D:\practice\cplusplus\TempletTest\TempletTest\TempletTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\TempletTest.unsuccessfulbuild".
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stringtest.cpp
+         stringtest.cpp
+     1>d:\practice\cplusplus\templettest\templettest\stringtest.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\practice\cplusplus\templettest\templettest\stringtest.cpp(43): warning C4996: 'std::basic_string<_Elem,_Traits,_Ax>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\xstring(1556) : see declaration of 'std::basic_string<_Elem,_Traits,_Ax>::copy'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\practice\cplusplus\TempletTest\Debug\TempletTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TempletTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\practice\cplusplus\TempletTest\Debug\TempletTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\practice\cplusplus\TempletTest\Debug\TempletTest.lib" /MACHINE:X86 Debug\TempletTest.exe.embed.manifest.res
+         Debug\stringtest.obj
+         Debug\template.obj
+         Debug\testall.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TempletTest.exe.embed.manifest" /manifest Debug\TempletTest.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         TempletTest.vcxproj -> D:\practice\cplusplus\TempletTest\Debug\TempletTest.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\TempletTest.unsuccessfulbuild".
+         Touching "Debug\TempletTest.lastbuildstate".
+     1>Done Building Project "D:\practice\cplusplus\TempletTest\TempletTest\TempletTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19

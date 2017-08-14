@@ -1,0 +1,22 @@
+﻿Build started 2017/7/6 15:11:04.
+     1>Project "F:\work\cplusstudy\cplusstudy\cplusstudy\cplusstudy.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\cplusstudy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+         All outputs are up-to-date.
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\work\cplusstudy\cplusstudy\Debug\cplusstudy.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"F:\work\cplusstudy\cplusstudy\Debug\cplusstudy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\work\cplusstudy\cplusstudy\Debug\cplusstudy.lib" /MACHINE:X86 Debug\main.obj
+         Debug\mylib.obj
+         Debug\structTest.obj
+         Debug\testMylib.obj
+         cplusstudy.vcxproj -> F:\work\cplusstudy\cplusstudy\Debug\cplusstudy.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\cplusstudy.unsuccessfulbuild".
+         Touching "Debug\cplusstudy.lastbuildstate".
+     1>Done Building Project "F:\work\cplusstudy\cplusstudy\cplusstudy\cplusstudy.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.36
